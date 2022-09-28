@@ -3,6 +3,12 @@
   font-weight: 900
   ;
 }
+body{
+  background-image: url('/images/pokeball_wallpaper_by_xenonmihai_d67idl2-fullview.jpg');
+  background-size: cover;
+  background-position: center center;
+  
+}
 .hero{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/1107044.png');
   width: 80%;
