@@ -1,0 +1,77 @@
+*{
+  font-family:  'Indie Flower', cursive;
+  font-weight: 900
+  ;
+}
+.hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/1107044.png');
+  width: 95%;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-blend-mode:darken ;
+    border-radius: 15px ;
+}
+header::before  {
+    content: "";
+    background: linear-gradient(90deg, rgb(108, 133, 122), rgb(68, 161, 68), rgb(159, 160, 238));
+    position: absolute;
+    height: 2%;
+    margin-top: 20px;
+    width: 95.5%;
+    z-index: -1;
+    filter: blur(20px);
+  }
+ .search-bar::before  {
+    content: "";
+    background: linear-gradient(90deg, rgb(108, 133, 122), rgb(68, 161, 68), rgb(176, 241, 181));
+    position: absolute;
+    height:5%;
+   
+    width: 50%;
+    z-index: -1;
+    filter: blur(20px);
+  }
+header{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border:0;;
+    padding-left: 0px;
+    background-color: rgb(245, 250, 250);
+    font-size: 1.5em;
+}
+.navbar-brand img{
+  height:75px;  
+}
+.search-bar{
+  width: 50%;
+  border-radius: 10px;
+  padding-left: 0px;
+  background-color: rgb(245, 250, 250);
+ 
+}
+.search-input{
+  width:100%;
+
+ 
+}
+.search-bar img{
+  height:3em
+ 
+}
+.search-bar button{
+border:0;;
+background-color: white;
+padding:0 
+}
+.search{
+  border: 0px;
+}
+.graph-image{
+    width: 100%;
+}
+.graph-wrapper{
+  width:45%
+}
